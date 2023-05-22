@@ -2,6 +2,9 @@
 
 say ----start----
 
+# get the instructions into her own storage
+data modify storage guilib:temp Slots set from storage guilib:temp guilib.Slots
+
 # get Items into her own storage
 data modify storage guilib:temp Items set from storage guilib:temp guilib.Items
 execute store result score #Items guilib.temp run data get storage guilib:temp Items

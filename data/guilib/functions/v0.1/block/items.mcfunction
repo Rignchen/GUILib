@@ -2,7 +2,7 @@
 
 #get slot number
 execute store result score #temp guilib.temp run data get storage guilib:temp Items[0].Slot
-tellraw @a[tag=convention.debug] {"score":{"name": "#temp","objective": "guilib.temp"}}
+function guilib:v0.1/block/guilib/
 
 #loop
 scoreboard players remove #Items guilib.temp 1

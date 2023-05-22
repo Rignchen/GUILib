@@ -10,3 +10,5 @@ function guilib:v0.1/tick
 #define entity @a[tag=convention.debug]
 #define score_holder #temp
 #define storage guilib:temp
+
+function guilib:v0.1/test
