@@ -4,4 +4,5 @@
 scoreboard objectives remove guilib.temp
 
 #storage
-data remove storage guilib:temp temp
+data remove storage guilib:temp guilib
+data remove storage guilib:temp Items

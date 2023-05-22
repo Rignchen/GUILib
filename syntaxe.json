@@ -18,7 +18,8 @@
 							}
 						]
 					}
-				]
+				],
+				"Items":["Items nbt from block last tick"]
 			}
 		}
 	}
