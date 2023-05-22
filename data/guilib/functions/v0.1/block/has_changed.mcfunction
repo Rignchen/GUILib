@@ -11,3 +11,6 @@ execute store result score #Items guilib.temp run data get storage guilib:temp I
 execute if score #Items guilib.temp matches 1.. run function guilib:v0.1/block/items
 
 say -----end-----
+
+#put Items back in place
+function guilib:v0.1/block/put_back_in_storage

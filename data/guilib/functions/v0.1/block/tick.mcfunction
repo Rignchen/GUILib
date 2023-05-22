@@ -6,6 +6,3 @@ function guilib:v0.1/block/get_storage
 #test if Items has changed
 execute store success score #temp guilib.temp run data modify storage guilib:temp guilib.Items set from block ~ ~ ~ Items
 execute if score #temp guilib.temp matches 1 run function guilib:v0.1/block/has_changed
-
-#put Items back in place
-function guilib:v0.1/block/put_back_in_storage
