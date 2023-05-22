@@ -1,0 +1,25 @@
+{
+	"item":{
+		"tag":{
+			"guilib":{
+				"Slots":[
+					{
+						"Slot":"2b/+",
+						"Items":[
+							{
+								"id":"minecraft:xxx",
+								"ctc":{
+									"id":"xxx",
+									"from":"xxx:xxx",
+									"trait":{
+										"xxx":1
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

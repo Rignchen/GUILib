@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gray_stained_glass_pane"
+		},
+		"title": "GUILib",
+		"description": "Custom GUI DataPack Library",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:rignchen",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
