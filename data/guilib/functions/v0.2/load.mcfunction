@@ -2,6 +2,8 @@
 
 #scoreboard
 scoreboard objectives add guilib.temp dummy
+#datapack version
+function guilib:v0.2/load_version
 
 #ticks
 function guilib:v0.2/tick

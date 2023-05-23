@@ -1,4 +1,6 @@
-when the block is placed, the item display has to be tag "guilib"
+when the block is placed, the entity has to be tag "guilib"
 a custom nbt has to be given (cf syntaxe.json)
+then run as this entity the function tag #guilib:vX/init (vX = curent last version)
+
 then every tick it will check if the nbt Items has change
 if yes then it will test every entries in item to see if it's autorised

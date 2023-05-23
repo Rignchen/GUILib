@@ -1,1 +1,2 @@
-everything :)
+test if wrong blocks get kicked
+slot 0 should automaticaly sort items
