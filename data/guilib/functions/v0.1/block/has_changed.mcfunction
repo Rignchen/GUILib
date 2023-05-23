@@ -2,6 +2,8 @@
 
 say ----start----
 
+data modify storage guilib:test items set value []
+
 # get the instructions into her own storage
 data modify storage guilib:temp Slots set from storage guilib:temp guilib.Slots
 
