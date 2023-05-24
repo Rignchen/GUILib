@@ -18,7 +18,8 @@ def score(version:str) -> int:
         version = version.split(".")
         return -(100*int(version[0]) + int(version[1]))
     return int(version)
-def folder():pass
+def folder(path:str,old_version:str,version:str):
+    pass
 def file(path:str,old_version:str,version:str):
     a = open(path,"r")
     b = a.read().replace(old_version,version)

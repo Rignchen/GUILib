@@ -2,6 +2,7 @@
 
 #scoreboard
 scoreboard objectives remove guilib.temp
+scoreboard objectives remove guilib.version
 
 #storage
 data remove storage guilib:temp guilib
