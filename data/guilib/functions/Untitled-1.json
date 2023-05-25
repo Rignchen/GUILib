@@ -1,8 +1,8 @@
 {},
-{expect:in,Slot:1b,Items:[{id:"minecraft:grass",anything:1b}]}
-{expect:in,Slot:2b,Items:[{id:"minecraft:barrel"}]}
-{expect:in,Slot:7b}
--{expect:in,Slot:12b,Items:[{id:"minecraft:barrel"},{id:"minecraft:grass"}]} <-
--{expect:in,Slot:13b,Items:[{id:"minecraft:grass"},{id:"minecraft:barrel"}]} <-
-{expect:in,Slot:19b,Items:[]} <-
-{expect:out,Slot:26b,Items:[{id:"minecraft:grass"}]}
+{expect:all,Slot:1b,Items:[{id:"minecraft:grass",anything:1b}]}
+{expect:bar,Slot:2b,Items:[{id:"minecraft:barrel"}]}
+{expect:all,Slot:7b}
+{expect:b/g,Slot:12b,Items:[{id:"minecraft:barrel"},{id:"minecraft:grass"}]}
+{expect:b/g,Slot:13b,Items:[{id:"minecraft:grass"},{id:"minecraft:barrel"}]}
+{expect:all,Slot:19b,Items:[]}
+{expect:gra,Slot:26b,Items:[{id:"minecraft:grass"}]}

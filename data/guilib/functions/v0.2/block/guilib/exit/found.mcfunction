@@ -8,4 +8,5 @@ execute positioned ~ ~1 ~ as @e[type=item,limit=1,sort=nearest,tag=guilib.temp] 
 scoreboard players remove #exit0 guilib.temp 1
 data remove storage guilib:temp guilib.Items[0]
 
-tellraw @a[tag=convention.debug] {"score":{"name": "#temp","objective": "guilib.temp"}}
+#guilib:test
+#tellraw @a[tag=convention.debug] {"score":{"name": "#temp","objective": "guilib.temp"}}
