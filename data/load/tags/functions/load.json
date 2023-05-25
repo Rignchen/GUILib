@@ -1,5 +1,5 @@
 {
 	"values": [
-		"#guilib:call/load"
+		"#guilib:_private/load"
 	]
 }

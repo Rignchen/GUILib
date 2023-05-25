@@ -6,7 +6,7 @@ scoreboard objectives add guilib.temp dummy
 function guilib:v0.2/load_version
 
 #ticks
-function guilib:v0.2/tick
+execute if score #GUILib load.status matches -2 run function guilib:v0.2/tick
 
 #define
 #define entity @a[tag=convention.debug]
