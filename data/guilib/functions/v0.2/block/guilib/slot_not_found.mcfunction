@@ -1,6 +1,5 @@
 ## function guilib:v0.2/block/guilib/loop
 
-data modify storage test a set from storage guilib:temp guilib.Slots
 data modify storage guilib:temp Slots append from storage guilib:temp Slots[0]
 data remove storage guilib:temp Slots[0]
 
