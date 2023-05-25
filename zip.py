@@ -21,4 +21,4 @@ def compress(zip_name:str = getcwd().replace("\\", "/").split("/")[-1],unwanted:
 			file.write(path + a)
 	if is_first:
 		file.close()
-compress(unwanted=["stats.py","version_updater.py","todo.txt"])
+compress(unwanted=["stats.py","version_updater.py","todo.txt","all versions"])
