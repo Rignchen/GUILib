@@ -1,1 +1,5 @@
+optimize the nbt in the init function
+add custom test
 slot 0 should automaticaly sort items
+slot 0 should automaticaly sort items
+add custom stack limit
