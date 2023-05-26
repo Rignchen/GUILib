@@ -70,5 +70,5 @@ def load_version(function_folder:str,old_version:str,version:str):
     a.write(out[:-1])
     a.close
 
-load_version(old,old,version)
 search((folder,file))
+load_version(find_version(),old,version)
