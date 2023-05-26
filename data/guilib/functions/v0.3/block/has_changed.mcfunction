@@ -10,5 +10,10 @@ execute store result score #Items guilib.temp run data get storage guilib:temp I
 data modify storage guilib:temp guilib.Items set value []
 execute if score #Items guilib.temp matches 1.. run function guilib:v0.3/block/guilib/has_items
 
-#put Items back in place
+# put Items back in place
 function guilib:v0.3/block/put_back_in_storage
+
+# empty the storages
+data remove storage guilib:temp Slots
+data remove storage guilib:temp Items
+data remove storage guilib:temp temp

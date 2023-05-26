@@ -1,4 +1,6 @@
+## function guilib:v0.3/block/guilib/exit_all
 ## function guilib:v0.3/block/guilib/found/item_not_found
+## function guilib:v0.3/block/guilib/test_item/not_found
 
 #output item
 summon item ~ ~1 ~ {Item:{id:"stone",Count:1b},Tags:["guilib.temp"]}

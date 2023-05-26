@@ -1,4 +1,5 @@
-## function guilib:v0.3/block/guilib/loop
+## function guilib:v0.3/block/guilib/has_instructions
+
 
 function guilib:v0.3/block/guilib/test_item/
 

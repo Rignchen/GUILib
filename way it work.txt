@@ -1,6 +1,15 @@
-when the block is placed, the entity has to be tag "guilib"
-a custom nbt has to be given (cf syntaxe.json)
-then run as this entity the function tag #guilib:vX/init (vX = curent last version)
+when the block is placed, the entity has to be given (cf syntaxe.json)
+then run as this entity the function tag #guilib:call/init
 
-then every tick it will check if the nbt Items has change
-if yes then it will test every entries in item to see if it's autorised
+the init function will then sort the nbt you gave
+
+then once the container's items change it will copy your nbt somwere else
+then it will check wich slot of first itinerance is the smaller between your input and the items
+it's gonna remove the smallest one and restart untill it find one where the slots are the smaller
+it will then check the id, ctc, custom check to see if it can stay, if not then it's gonna remove it
+
+if you want to make a custom check then give the nbt Slots.Items.custom a value
+once that's done you can run a function from "#guilib:event/custom_test"
+in that function test if the score #custom guilib.temp matches yyour value
+then you can do your test at the end you should set the score #test guilib.temp to 1 or 0
+0 meand it can stay, 1 it needs to go (that's easier for me that way with the code)

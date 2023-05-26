@@ -1,4 +1,4 @@
-## function guilib:v0.3/block/guilib/slot_found
+## function guilib:v0.3/block/guilib/found/found
 
 data modify storage guilib:temp temp.slot set from storage guilib:temp Slots[0]
 data modify storage guilib:temp temp.item set from storage guilib:temp Items[0]

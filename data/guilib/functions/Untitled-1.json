@@ -5,4 +5,4 @@
 {expect:b/g,Slot:12b,Items:[{id:"minecraft:barrel"},{id:"minecraft:grass"}]}
 {expect:b/g,Slot:13b,Items:[{id:"minecraft:grass"},{id:"minecraft:barrel"}]}
 {expect:all,Slot:19b,Items:[]}
-{expect:gra,Slot:26b,Items:[{id:"minecraft:grass"}]}
+{expect:gra,Slot:25b,Items:[{id:"minecraft:grass"}]}

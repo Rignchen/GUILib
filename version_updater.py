@@ -35,8 +35,10 @@ def folder(path:str,old_version:str,version:str):
     #removedirs(path + old_version)
 def file(path:str,old_version:str,version:str):
     a = open(path,"r")
-    b = a.read().replace(old_version,version)
+    b = a.read()
     a.close
+    b = b.replace(old_version,version)
+    b = b.replace("score #GUILib load.status matches "+str(score(old_version)),"score #GUILib load.status matches "+str(score(version)))
     a = open(path,"w")
     a.write(b)
     a.close()
@@ -67,25 +69,6 @@ def load_version(function_folder:str,old_version:str,version:str):
     a = open("data/guilib/functions/" + function_folder + "/load_version.mcfunction","w")
     a.write(out[:-1])
     a.close
-def load(function_folder:str,version:str):
-    a = open("data/guilib/functions/" + function_folder + "/load.mcfunction")
-    b = a.read().split("\n")
-    a.close()
-    out = ""
-    for a in b:
-        if a.startswith("execute if score #GUILib load.status matches"):
-            c = a.split(" ")
-            c[6] = score(version)
-            a = ""
-            for d in c:
-                a += str(d) + " "
-            a = a[:-1]
-        out += a + "\n"
-    a = open("data/guilib/functions/" + function_folder + "/load.mcfunction","w")
-    a.write(out)
-    a.close()
 
+load_version(old,old,version)
 search((folder,file))
-function_folder = find_version()
-load_version(function_folder,old,version)
-load(function_folder,version)
