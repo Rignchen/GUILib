@@ -1,5 +1,8 @@
 ## function #guilib:v0.5/load
 
+#message
+tellraw @a[tag=convention.debug] {"text": "Loaded: GuiLib by Rignchen","color": "green"}
+
 #scoreboard
 scoreboard objectives add guilib.temp dummy
 scoreboard objectives add guilib.slots dummy

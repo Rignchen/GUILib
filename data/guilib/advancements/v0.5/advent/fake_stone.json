@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"stone": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"stone"
+						],
+						"nbt": "{guilib:1b}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "guilib:v0.5/advent/fake_stone"
+	}
+}

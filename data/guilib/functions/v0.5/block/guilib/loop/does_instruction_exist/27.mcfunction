@@ -1,6 +1,5 @@
-## function guilib:v0.5/block/guilib/loop/
+## function guilib:v0.5/block/guilib/loop/does_instruction_exist/
 
-#put the instruction needed in a storage
 execute if score #temp guilib.slots matches 26 if data storage guilib:temp guilib.Slots[{Slot:26b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/26
 execute if score #temp guilib.slots matches 25 if data storage guilib:temp guilib.Slots[{Slot:25b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/25
 execute if score #temp guilib.slots matches 24 if data storage guilib:temp guilib.Slots[{Slot:24b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/24
@@ -19,16 +18,3 @@ execute if score #temp guilib.slots matches 12 if data storage guilib:temp guili
 execute if score #temp guilib.slots matches 11 if data storage guilib:temp guilib.Slots[{Slot:11b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/11
 execute if score #temp guilib.slots matches 10 if data storage guilib:temp guilib.Slots[{Slot:10b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/10
 execute if score #temp guilib.slots matches 9 if data storage guilib:temp guilib.Slots[{Slot:9b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/9
-execute if score #temp guilib.slots matches 8 if data storage guilib:temp guilib.Slots[{Slot:8b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/8
-execute if score #temp guilib.slots matches 7 if data storage guilib:temp guilib.Slots[{Slot:7b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/7
-execute if score #temp guilib.slots matches 6 if data storage guilib:temp guilib.Slots[{Slot:6b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/6
-execute if score #temp guilib.slots matches 5 if data storage guilib:temp guilib.Slots[{Slot:5b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/5
-execute if score #temp guilib.slots matches 4 if data storage guilib:temp guilib.Slots[{Slot:4b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/4
-execute if score #temp guilib.slots matches 3 if data storage guilib:temp guilib.Slots[{Slot:3b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/3
-execute if score #temp guilib.slots matches 2 if data storage guilib:temp guilib.Slots[{Slot:2b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/2
-execute if score #temp guilib.slots matches 1 if data storage guilib:temp guilib.Slots[{Slot:1b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/1
-execute if score #temp guilib.slots matches 0 if data storage guilib:temp guilib.Slots[{Slot:0b}] run function guilib:v0.5/block/guilib/loop/instruction_exist/0
-
-#test if it's an autorised item
-execute if score #temp guilib.temp matches 0 run function guilib:v0.5/block/guilib/exit/
-execute if score #temp guilib.temp matches 1 run function guilib:v0.5/block/guilib/loop/test_item/
