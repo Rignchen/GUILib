@@ -1,4 +1,3 @@
-add a custom tag to the stone and clear the player if he gets that stone
 slot 0 should automaticaly sort items
 slot 0 should automaticaly sort items even if allready some items in the destination slot
 add custom stack limit
