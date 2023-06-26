@@ -1,7 +1,7 @@
 ## function guilib:v0.4/block/has_changed
 
-#find the slot
-execute if score #Slots guilib.temp matches 1.. run function guilib:v0.4/block/guilib/has_instructions
+execute store result score #temp guilib.temp if data storage guilib:temp guilib.Slots[0]
 
-execute if score #Slots guilib.temp matches 0 if score #Items guilib.temp matches 1.. run function guilib:v0.4/block/guilib/exit_all
-execute if score #Items guilib.temp matches 1.. run function guilib:v0.4/block/guilib/has_items
+#find the slot
+execute if score #temp guilib.temp matches 0 run function guilib:v0.4/block/guilib/exit/all
+execute if score #temp guilib.temp matches 1 run function guilib:v0.4/block/guilib/has_instructions

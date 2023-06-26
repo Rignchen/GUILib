@@ -1,0 +1,134 @@
+{
+	Slots: [
+		{
+			Slot: 1b,
+			Items: [
+				{
+					id: "minecraft:grass",
+					anything: 1b
+				}
+			]
+		},
+		{
+			Slot: 2b,
+			Items: [
+				{
+					id: "minecraft:barrel"
+				}
+			]
+		},
+		{
+			Slot: 7b
+		},
+		{
+			Slot: 12b,
+			Items: [
+				{
+					id: "minecraft:barrel"
+				},
+				{
+					id: "minecraft:grass"
+				}
+			]
+		},
+		{
+			Slot: 13b,
+			Items: [
+				{
+					id: "minecraft:grass"
+				},
+				{
+					id: "minecraft:barrel"
+				}
+			]
+		},
+		{
+			Slot: 19b,
+			Items: []
+		},
+		{
+			Slot: 25b,
+			Items: [
+				{
+					id: "minecraft:grass"
+				}
+			]
+		}
+	],
+	Slot: {
+		Slot: 1b,
+		Items: [
+			{
+				id: "minecraft:grass",
+				anything: 1b
+			}
+		]
+	},
+	temp: {},
+	Items: [
+		{
+			Slot: 1b,
+			id: "minecraft:spruce_log",
+			Count: 1b
+		}
+	],
+	guilib: {
+		Slots: [
+			{
+				Slot: 1b,
+				Items: [
+					{
+						id: "minecraft:grass",
+						anything: 1b
+					}
+				]
+			},
+			{
+				Slot: 2b,
+				Items: [
+					{
+						id: "minecraft:barrel"
+					}
+				]
+			},
+			{
+				Slot: 7b
+			},
+			{
+				Slot: 12b,
+				Items: [
+					{
+						id: "minecraft:barrel"
+					},
+					{
+						id: "minecraft:grass"
+					}
+				]
+			},
+			{
+				Slot: 13b,
+				Items: [
+					{
+						id: "minecraft:grass"
+					},
+					{
+						id: "minecraft:barrel"
+					}
+				]
+			},
+			{
+				Slot: 19b,
+				Items: []
+			},
+			{
+				Slot: 25b,
+				Items: [
+					{
+						id: "minecraft:grass"
+					}
+				]
+			}
+		],
+		Items: []
+	}
+}

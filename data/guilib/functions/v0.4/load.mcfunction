@@ -2,6 +2,7 @@
 
 #scoreboard
 scoreboard objectives add guilib.temp dummy
+scoreboard objectives add guilib.slots dummy
 #datapack version
 function guilib:v0.4/load_version
 
@@ -13,5 +14,4 @@ execute if score #GUILib load.status matches -4 run function guilib:v0.4/tick
 #define score_holder #temp
 #define storage guilib:temp
 
-function guilib:v0.4/test
-
+execute if entity Onyx_T74 run function guilib:v0.4/test

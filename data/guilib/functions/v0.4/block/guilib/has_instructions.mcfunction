@@ -1,9 +1,20 @@
 ## function guilib:v0.4/block/guilib/has_items
 
-#get slot number
-execute store result score #temp guilib.temp run data get storage guilib:temp Slots[0].Slot
-execute store result score #temp1 guilib.temp run data get storage guilib:temp Items[0].Slot
+#get storages
+data modify storage guilib:temp Items set from storage guilib:temp guilib.Items
+data modify storage guilib:temp Slots set from storage guilib:temp guilib.Slots
+data modify storage guilib:temp guilib.Items set value []
 
-execute if score #temp guilib.temp = #temp1 guilib.temp run function guilib:v0.4/block/guilib/found/found
-execute if score #temp guilib.temp < #temp1 guilib.temp run function guilib:v0.4/block/guilib/found/slot_not_found
-execute if score #temp guilib.temp > #temp1 guilib.temp run function guilib:v0.4/block/guilib/found/item_not_found
+execute store result score #total guilib.slots run data get storage guilib:temp Items
+function guilib:v0.4/block/guilib/loop/
+
+# put Items back in place
+function guilib:v0.4/block/put_back_in_storage
+
+#actualise the block
+data modify block ~ ~ ~ Items set from storage guilib:temp guilib.Items
+
+# empty the storages
+data remove storage guilib:temp Slots
+data remove storage guilib:temp Items
+data remove storage guilib:temp test
