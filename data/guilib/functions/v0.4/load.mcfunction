@@ -16,5 +16,3 @@ execute if score #GUILib load.status matches -4 run function guilib:v0.4/tick
 #define entity @a[tag=convention.debug]
 #define score_holder #temp
 #define storage guilib:temp
-
-execute if entity Onyx_T74 run function guilib:v0.4/test
