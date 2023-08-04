@@ -7,8 +7,8 @@
 		},
 		"ops": [
 			{
-				"source": "test.merge",
-				"target": "{}",
+				"source": "test.ctc.traits",
+				"target": "ctc.traits",
 				"op": "merge"
 			}
 		]

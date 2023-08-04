@@ -1,4 +1,4 @@
-repare ctc filtre + add merge filtre
+add merge filtre
 slot 0 should automaticaly sort items
 slot 0 should automaticaly sort items even if allready some items in the destination slot
 add custom stack limit
