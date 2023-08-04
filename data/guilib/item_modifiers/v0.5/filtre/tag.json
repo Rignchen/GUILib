@@ -7,7 +7,7 @@
 		},
 		"ops": [
 			{
-				"source": "test.merge",
+				"source": "test.tag",
 				"target": "{}",
 				"op": "merge"
 			}
