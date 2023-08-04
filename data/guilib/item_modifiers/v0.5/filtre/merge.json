@@ -1,0 +1,16 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+		"source": {
+			"type": "storage",
+			"source": "guilib:temp"
+		},
+		"ops": [
+			{
+				"source": "merge.merge",
+				"target": "{}",
+				"op": "merge"
+			}
+		]
+    }
+]

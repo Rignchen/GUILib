@@ -1,4 +1,5 @@
 ## function guilib:v0.5/block/guilib/has_items
+## function guilib:v0.5/block/guilib/exit/exit_all
 
 scoreboard players remove #Items guilib.temp 1
 function guilib:v0.5/block/guilib/exit/
