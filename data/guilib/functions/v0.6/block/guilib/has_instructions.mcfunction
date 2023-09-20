@@ -1,5 +1,8 @@
 ## function guilib:v0.6/block/guilib/has_items
 
+#store item from slot 0b
+execute if data storage guilib:temp guilib.Items[{Slot:0b}] unless data storage guilib:temp guilib.Slots[{Slot:0b}] run function guilib:v0.6/block/guilib/sort/
+
 #get storages
 data modify storage guilib:temp Slots set from storage guilib:temp guilib.Slots
 data modify storage guilib:temp guilib.Items set value []
