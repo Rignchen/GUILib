@@ -58,4 +58,4 @@ def compress(zip_name:str = getcwd().replace("\\", "/").split("/")[-1], wanted:l
 		file.close()
 		if compress_files: remove("temp.txt")
 
-start(wanted=["data","LICENSE","README.md","pack.mcmeta","syntaxe.json",],compress_files=True)
+start(wanted=["data","pack.mcmeta","LICENSE","README.md","syntaxe.json",],compress_files=True)
