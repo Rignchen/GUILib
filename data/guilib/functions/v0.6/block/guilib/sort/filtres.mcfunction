@@ -1,7 +1,7 @@
 say v0.6/block/guilib/sort/filtres
 ## function guilib:v0.6/block/guilib/sort/loop
 ## function guilib:v0.6/block/guilib/sort/next_filtres
-
+ 
 data modify storage guilib:temp test set from storage guilib:temp guilib.Items[0]
 data modify storage guilib:temp Items set from storage guilib:temp Slots[0].Items
 tellraw @a[tag=convention.debug] ["Slots[0].Items: ",{"nbt":"Items","storage": "guilib:temp"}]
