@@ -1,4 +1,5 @@
 ## function guilib:v0.6/block/guilib/test_item/loop/test_item
+## function guilib:v0.6/block/guilib/sort/test_item
 
 execute store result score #custom guilib.temp run data get storage guilib:temp Items[0].custom
 function #guilib:event/custom_test
